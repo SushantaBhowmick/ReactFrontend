@@ -165,12 +165,7 @@ function Studentreg() {
                   </select>
 
                   <p>Category of Job:</p>
-                  <select
-                    {...register("jobCategory")}
-                    name=""
-                    id="job"
-                    className="form-control"
-                  >
+                  <select {...register("jobCategory")} className="form-control">
                     <option value="" selected>
                       -Select here-
                     </option>
@@ -187,8 +182,6 @@ function Studentreg() {
                   <p>Fresher:</p>
                   <select
                     {...register("fresherStatus")}
-                    name=""
-                    id="job"
                     className="form-control"
                   >
                     <option value="" selected>
@@ -201,8 +194,6 @@ function Studentreg() {
                   <p>Experience :</p>
                   <textarea
                     {...register("experience")}
-                    name=""
-                    id=""
                     cols="50"
                     rows="6"
                     width=""
